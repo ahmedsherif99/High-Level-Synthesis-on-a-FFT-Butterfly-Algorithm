@@ -1,0 +1,319 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UoS/Embedded Processor/New Coursework/Coursework/Modelsim/V2
+T_opt
+!s110 1683065767
+V[=12Hkz4^8]HjT>SQ6I?E1
+Z1 04 9 4 work testbench fast 0
+=21-fc7774b4d363-64518ba7-2a-2a68
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1683464315
+VN<Zd1D4z]f_DJhFfj9h7W1
+R1
+=8-fc7774b4d363-6457a07a-32b-10e4
+R2
+R3
+n@_opt1
+R4
+R0
+valu
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1683550919
+!i10b 1
+!s100 1mnl12dNWgM:]^3lRTA_00
+I2jKTD26OhRf0jlIGP_LJj2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+Z7 dD:/UoS/Digital System Synthesis/Coursework 2/Modelsim/V1
+w1683379350
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv
+L0 3
+Z8 OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1683550918.000000
+!s107 D:\UoS\Digital System Synthesis\Coursework 2\Code Files\alucodes.sv|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vcounter
+R5
+Z10 !s110 1683550920
+!i10b 1
+!s100 lSPehiTGf]Xbf?R>hYHYZ1
+I?9C<j7nghHRO]J<CF[H?70
+R6
+!s105 counter_sv_unit
+S1
+R7
+w1679156318
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv
+L0 2
+R8
+r1
+!s85 0
+31
+Z11 !s108 1683550920.000000
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv|
+!i113 0
+R9
+R3
+vcpu
+R5
+R10
+!i10b 1
+!s100 B@[OQgZ`>ifX;gGkE0CZO2
+IS>2d@=AYEJU^QH5[_XbR80
+R6
+!s105 cpu_sv_unit
+S1
+R7
+w1683379932
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R11
+!s107 D:\UoS\Digital System Synthesis\Coursework 2\Code Files\alucodes.sv|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv|
+!i113 0
+R9
+R3
+vdecoder
+R5
+R10
+!i10b 1
+!s100 iZ7WQi04fiYVSc30f<@eJ1
+IbijbWO_D57XN3b9X5E9`l2
+R6
+!s105 decoder_sv_unit
+S1
+R7
+w1683030059
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R11
+!s107 D:\UoS\Digital System Synthesis\Coursework 2\Code Files\opcodes.sv|D:\UoS\Digital System Synthesis\Coursework 2\Code Files\alucodes.sv|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv|
+!i113 0
+R9
+R3
+vdecodertest
+R5
+Z12 !s110 1683550921
+!i10b 1
+!s100 eBVYkDZcV_60H16M9a]b22
+I>8JP=gcE7_dBaEcVnW[KK1
+R6
+!s105 decodertest_sv_unit
+S1
+R7
+w1679377966
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv
+L0 12
+R8
+r1
+!s85 0
+31
+R11
+!s107 D:\UoS\Digital System Synthesis\Coursework 2\Code Files\opcodes.sv|D:\UoS\Digital System Synthesis\Coursework 2\Code Files\alucodes.sv|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv|
+!i113 0
+R9
+R3
+vpc
+R5
+R12
+!i10b 1
+!s100 NUS^<2RzXK5zg`f7WT;630
+IPObMS=RPb9SWIoI4P]:J@3
+R6
+!s105 pc_sv_unit
+S1
+R7
+w1682605166
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv
+L0 8
+R8
+r1
+!s85 0
+31
+Z13 !s108 1683550921.000000
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv|
+!i113 0
+R9
+R3
+vpicoMIPS4test
+R5
+R12
+!i10b 1
+!s100 L>RlmP;jidQc]l[BEKNfF3
+I;`>cklB3a=R>F1mkQ=A;53
+R6
+!s105 picoMIPS4test_sv_unit
+S1
+R7
+w1683499478
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R13
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv|
+!i113 0
+R9
+R3
+npico@m@i@p@s4test
+vprog
+R5
+Z14 !s110 1683550922
+!i10b 1
+!s100 X=_>=hIF;b7bMC^dP=>ZY2
+IBaK2Y^92F5:7hY1[<0CCb2
+R6
+!s105 prog_sv_unit
+S1
+R7
+w1683029301
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv
+L0 2
+R8
+r1
+!s85 0
+31
+Z15 !s108 1683550922.000000
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv|
+!i113 0
+R9
+R3
+vregs
+R5
+R14
+!i10b 1
+!s100 @74X`JaWnC_E^<O3GHYPi1
+IbVC8V4I@Ce[KE;R?lg0Si2
+R6
+!s105 regs_sv_unit
+S1
+R7
+w1683061587
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv|
+!i113 0
+R9
+R3
+vregstest
+R5
+R14
+!i10b 1
+!s100 ml:^HDIb0AG<DK_e04a;S2
+Il<DFPmMhfedV<C_4=[mEM3
+R6
+!s105 regstest_sv_unit
+S1
+R7
+w1679379028
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv|
+!i113 0
+R9
+R3
+vsigned_mult
+R5
+R12
+!i10b 1
+!s100 g1JV_n70:eT6;N_U<XOR70
+Il2UzFV>8lbBgNOf_:I]IN2
+R6
+!s105 multiplier_sv_unit
+S1
+R7
+w1681674016
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R13
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv|
+!i113 0
+R9
+R3
+vtestbench
+R5
+R14
+!i10b 1
+!s100 =Hf50R92G0Q>D4aO;hHa^1
+IImJSj8Vk<iLQl^9bT8EW73
+R6
+!s105 testbench_sv_unit
+S1
+R7
+w1683464285
+8D:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv
+FD:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv|
+!i113 0
+R9
+R3

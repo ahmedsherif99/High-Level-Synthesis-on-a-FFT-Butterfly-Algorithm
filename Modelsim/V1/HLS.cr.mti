@@ -1,0 +1,91 @@
+{D:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/testbench.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/cpu.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alucodes.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alucodes.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/prog.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module prog
+
+Top level modules:
+	prog
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regs.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module regs
+
+Top level modules:
+	regs
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decoder.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/multiplier.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module signed_mult
+
+Top level modules:
+	signed_mult
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/picoMIPS4test.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module picoMIPS4test
+
+Top level modules:
+	picoMIPS4test
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/counter.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/regstest.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module regstest
+
+Top level modules:
+	regstest
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/alu.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/pc.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/opcodes.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/opcodes.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+
+} {} {}} {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UoS/Digital System Synthesis/Coursework 2/Code Files/decodertest.sv}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module decodertest
+
+Top level modules:
+	decodertest
+
+} {} {}}
