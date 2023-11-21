@@ -1,0 +1,69 @@
+
+`include "alucodes.sv"
+module cpu #( parameter n = 8) // data bus width
+(input logic clk,  
+  input reset, // master reset
+input [8:0]SW, //Switch input
+  output logic[n-1:0] outport // need an output port, tentatively this will be the ALU output
+);       
+
+// declarations of local signals that connect CPU modules
+// ALU
+logic [2:0] ALUfunc; // ALU function
+
+logic flag;
+logic imm; // immediate operand signal
+logic [n-1:0] Alub; // output from imm MUX
+//
+// registers
+logic [n-1:0] R1data1, R1data2,R2data1,R2data2, Wdata1; 
+logic [15:0] Wdata2; // Register data
+logic w1, w2; // register write control
+//
+// Program Counter 
+parameter Psize = 7; // up to 64 instructions
+logic PCincr,/*PCabsbranch,*/PCrelbranch; // program counter control
+logic [Psize-1 : 0]ProgAddress;
+// Program Memory
+parameter Isize = 27; // Isize - instruction width
+logic [Isize-1:0] I; // I - instruction code
+
+//------------- code starts here ---------
+// module instantiations
+pc  #(.Psize(Psize)) progCounter (.clk(clk),.reset(reset),
+        .PCincr(PCincr),
+        .PCrelbranch(PCrelbranch),
+        .Branchaddr(I[(Psize-1)+12:12]), 
+        .PCout(ProgAddress) );
+
+prog #(.Psize(Psize),.Isize(Isize)) 
+      progMemory (.address(ProgAddress),.I(I));
+
+decoder  D (.opcode(I[Isize-1:Isize-3]),
+            .PCincr(PCincr),
+            .PCrelbranch(PCrelbranch),
+            .flag(flag), // ALU flags
+		  .ALUfunc(ALUfunc),.imm(imm),.w1(w1),.w2(w2));
+
+regs   #(.n(n))  gpr(.clk(clk),.w1(w1), .w2(w2),
+        .Wdata1(Wdata1), .Wdata2(Wdata2[14:7]),
+		.R1addr3(I[11:8]),  // reg %d number
+		.R1addr2(I[7:4]),  // reg %d number
+		.R1addr1(I[3:0]), // reg %s number
+		.R2addr3(I[23:20]),  // reg %d number
+		.R2addr2(I[19:16]), // reg %s number change Instruction bits address
+		.R2addr1(I[15:12]), // reg %s number
+        .R1data1(R1data1),.R1data2(R1data2),.R2data1(R2data1),.R2data2(R2data2),
+	.SW(SW),.out(outport));
+
+alu    #(.n(n))  iu(.a(R1data1),.b(R1data2),/*.c(R2data1),.d(R2data2),*/
+       .func(ALUfunc),.flag(flag),
+       .result(Wdata1)/*,.MULresult(Wdata2)*/); // ALU result -> destination reg
+
+// create MUX for immediate operand
+//assign Alub = (imm ? {I[n-2],I[n-2:0]}/*I[n-1:0]*/ : Rdata2);
+signed_mult m(.out(Wdata2), .a(R2data1), .b(R2data2));
+
+
+
+endmodule
